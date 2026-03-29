@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>Foodie</h2>
+        <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <h1>Our Menu</h1>
+
+         <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="images/burger.jpg" class="card-img" alt="Burger">
+                <h3>Burger</h3>
+                <p>Delicious cheesy burger</p>
+                <span>₹120</span>
+                <button onclick="addToCart('Burger', 120)">Add to Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <img src="images/pizza.jpg" class="card-img" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Hot & crispy pizza</p>
+                <span>₹250</span>
+                <button onclick="addToCart('Pizza', 250)">Add to Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <img src="images/pasta.jpg" class="card-img" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Creamy white sauce pasta</p>
+                <span>₹180</span>
+                <button onclick="addToCart('Pasta', 180)">Add to Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="images/waterbottle.jpg" class="card-img" alt="waterbottle">
+                <h3>waterbottle</h3>
+                <p>Chilled and refreshing mineral water</p>
+                <span>₹18</span>
+                <button onclick="addToCart('waterbottle', 18)">Add to Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="images/coke.jpg" class="card-img" alt="Coke">
+                <h3>Coke</h3>
+                <p>Chilled and refreshing carbonated drink</p>
+                <span>₹80</span>
+                <button onclick="addToCart('Coke', 80)">Add to Cart</button>
+            </div>
+           <div class="menu-card">
+                <img src="images/pastry.jpg" class="card-img" alt="Pastry">
+                <h3>Pastry</h3>
+                <p>Delicious and flaky pastry</p>
+                <span>₹85</span>
+               <button onclick="addToCart('Pastry', 85)">Add to Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="images/sandwich.jpg" class="card-img" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <p>Delicious and filling sandwich</p>
+                <span>₹120</span>
+                <button onclick="addToCart('Sandwich', 120)">Add to Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="images/fries.jpg" class="card-img" alt="Fries">
+                <h3>Fries</h3>
+                <p>Golden and crispy fries</p>
+                <span>₹95</span>
+                <button onclick="addToCart('Fries', 95)">Add to Cart</button>
+            </div>
+
+        </div>
+        <a href="cart.html">
+    <button>Go to Cart</button>
+</a>
+    </section>
+
+    <script src="menucart.js"></script>
+</body>
+</html>

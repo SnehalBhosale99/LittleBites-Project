@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: center;
+
+   background-image: url("images/bg.jpg") 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+
+.menu-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    background: #eb0303; /* 👈 important so card is visible */
+}
+
+.menu-card img {
+    width: 200px;
+}
