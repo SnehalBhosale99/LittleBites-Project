@@ -1,4 +1,5 @@
-# LittleBites-Project
+# LittleBites-Food Delivering Website frontend project
+
 🍔 Food Ordering Website
 
 A responsive food ordering website built using HTML, CSS, and JavaScript.
